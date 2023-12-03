@@ -1,0 +1,91 @@
+/* Write your CSS code here */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ea580c;
+  font-family: 'Roboto';
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.form-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  align-items: center;
+}
+
+label {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+}
+
+input {
+  border: 1px solid #9aa5b1;
+  border-radius: 5px;
+  height: 30px;
+  width: 90%;
+  outline: none;
+  padding-left: 10px;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+button {
+  height: 35px;
+  min-width: 80px;
+  background-color: #ff0b37;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  font-family: 'Roboto';
+  border-radius: 10px;
+}
+
+.submitted-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.error {
+  color: red;
+  font-family: 'Roboto';
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.image {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.successful-msg {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
